@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n =+prompt("nhap n:");
+
+        var countEvenDigits = 0;
+
+        var Str = n.toString();
+
+        for (var i = 0; i < Str.length; i++) {
+
+            var digit = parseInt(Str[i]);
+
+        if (digit % 2 === 0) {
+        countEvenDigits++;
+        }
+    }
+        console.log("so chu so chan trong", n, "là:", countEvenDigits);
+
+    </script>
+</body>
+</html>
