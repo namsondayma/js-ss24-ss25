@@ -6,21 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-<script>
-    let a =+prompt("nhap so a:");
-    let b =+prompt("nhap so b:");
-    let sum=0;
-    if(a<b){
-        for(let i=0;a<< i <<b;i++){
-            sum+=i;
-            console.log("tong cac so giua a va b la:",sum);
-        }
-    }else{
-        for(let i=0;b<i<a;i++){
-            sum+=i;
-            console.log("tong cac so giua a va b la:",sum);
-        }
+    <script>
+    let a = +prompt("Nhập a");
+    let b = +prompt("Nhập b");
+    let sum = 0;
+if(a > b){
+    for(let i = b; i < a; i++){
+        sum += i;
     }
-</script>
+}
+else{
+    for(let i = a; i < b; i++){
+        sum += i;
+    }
+}
+console.log(sum);
+    </script>
 </body>
 </html>
